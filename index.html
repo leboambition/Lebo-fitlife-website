@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebo FitLife Studio - Transform Your Life</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>Lebo FitLife Studio</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Body. Transform Your Life.</h1>
+            <p>Join our community and achieve your fitness goals with expert trainers</p>
+            <button class="cta-button" onclick="location.href='services.html'">Start Your Journey</button>
+        </div>
+    </section>
+
+    <!-- BMI Calculator -->
+    <section class="bmi-calculator">
+        <h2>Check Your BMI</h2>
+        <div class="calculator-container">
+            <div class="calculator-form">
+                <div class="form-group">
+                    <label for="height">Height (cm):</label>
+                    <input type="number" id="height" placeholder="Enter height" min="100" max="250">
+                </div>
+                <div class="form-group">
+                    <label for="weight">Weight (kg):</label>
+                    <input type="number" id="weight" placeholder="Enter weight" min="30" max="200">
+                </div>
+                <button onclick="calculateBMI()">Calculate BMI</button>
+                <div id="bmi-result" class="result"></div>
+            </div>
+            <div class="calculator-info">
+                <h3>BMI Categories:</h3>
+                <ul>
+                    <li>Underweight: &lt; 18.5</li>
+                    <li>Normal: 18.5 - 24.9</li>
+                    <li>Overweight: 25 - 29.9</li>
+                    <li>Obesity: ≥ 30</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <h2>Our Popular Classes</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="images/yoga-class.jpg" alt="Yoga Class">
+                <h3>Yoga & Flexibility</h3>
+                <p>Improve flexibility and find inner peace with our expert instructors</p>
+            </div>
+            <div class="service-card">
+                <img src="images/cardio-class.jpg" alt="Cardio Class">
+                <h3>Cardio Blast</h3>
+                <p>High-energy workouts to boost your cardiovascular health</p>
+            </div>
+            <div class="service-card">
+                <img src="images/strength-class.jpg" alt="Strength Training">
+                <h3>Strength Training</h3>
+                <p>Build muscle and increase strength with personalized programs</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>Success Stories</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <p>"I lost 25kg in 6 months! The trainers are amazing!"</p>
+                <span>- Sarah M.</span>
+            </div>
+            <div class="testimonial">
+                <p>"Best decision I ever made. The community is so supportive!"</p>
+                <span>- Mike T.</span>
+            </div>
+            <div class="testimonial">
+                <p>"The yoga classes transformed both my body and mind."</p>
+                <span>- Priya K.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>FitLife Studio</h3>
+                <p>Your journey to a healthier life starts here.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="trainers.html">Trainers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>📞 +2348106065044</p>
+                <p>✉️ marialebo06@gmail.com</p>
+                <p>📍 123 Fitness Street, Lagos City</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Lebo Maria. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
