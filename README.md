@@ -3,7 +3,7 @@
 A responsive multipage fitness website built with HTML5, CSS3, and JavaScript.
 
 ## 🚀 Live Demo
-[Visit Live Website](https://your-username.github.io/fitlife-website)
+[Visit Live Website]( https://leboambition.github.io/Lebo-fitlife-website/)
 
 ## 📋 Project Description
 Lebo FitLife Studio is a modern fitness website featuring:
